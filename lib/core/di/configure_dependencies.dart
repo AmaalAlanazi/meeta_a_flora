@@ -7,7 +7,7 @@ import 'package:meeta_a_flora/features/plant_details_ai/di/plant_details_ai_di.d
   initializerName: 'init',
   preferRelativeImports: true,
   asExtension: true,
-  generateForDir: ['lib/core'], // ✅ مهم
+  generateForDir: ['lib/core'], 
 )
 Future<void> configureDependencies() async {
   final getIt = GetIt.instance;
